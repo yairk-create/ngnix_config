@@ -19,7 +19,10 @@ Welcome to my DevOps12 Professional Course Repository.
 This repository contains homework, projects, and exercises completed during the DevOps12 Professional Course. It serves as a portfolio of my learning journey and the skills I've developed throughout this comprehensive DevOps program.
 
 ## 📁 Folder Structure
-
+- ngnix_config/ Root directory
+-- Task.md Main shell script for Nginx setup
+-- README.md    Project overview, usage, installation and instructions
+-- Task.md      Contains the task description
 * **assets/** - Images and resources used in documentation.
 * **bash/** - Bash scripts and automation tasks.
 * **notes/** - Course notes and learning resources.

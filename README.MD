@@ -1,6 +1,6 @@
 <<<<<<< HEAD
 # Nginx Configuration Automation Script
-![ngnix Image](assets/images.png)
+
 
 
 ## Overview

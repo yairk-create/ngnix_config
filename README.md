@@ -21,7 +21,6 @@ ngnix_config/
 ├── README.md            # Project overview, usage, installation and instructions
 ├── Task.md              # Contains the task description
 ├── assets/              # Images and resources used in documentation
-├── bash/                # Bash scripts and automation tasks
 ├── notes/               # Course notes and learning resources
 └── .gitignore           # Git ignore file to exclude unnecessary files from version control
 ```

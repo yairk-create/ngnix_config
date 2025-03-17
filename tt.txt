@@ -1,7 +1,7 @@
-
+<<<<<<< HEAD
 # Nginx Configuration Automation Script
 
-![nginx Image](assets/images.png)
+![ngnix Image](assets/images.png)
 
 ## Overview
 
@@ -12,29 +12,40 @@ This repository contains a bash script that automates the setup and configuratio
 - CGI scripting capabilities
 
 The script offers an argument-based system to selectively install and configure each feature as needed.
+=======
+## Introduction
+Welcome to my DevOps12 Professional Course Repository.
+
+This repository contains homework, projects, and exercises completed during the DevOps12 Professional Course. It serves as a portfolio of my learning journey and the skills I've developed throughout this comprehensive DevOps program.
 
 ## 📁 Folder Structure
-
-```plaintext
-ngnix_config/
-├── Task.md              # Main shell script for Nginx setup
-├── README.md            # Project overview, usage, installation and instructions
-├── Task.md              # Contains the task description
-├── assets/              # Images and resources used in documentation
-├── bash/                # Bash scripts and automation tasks
-├── notes/               # Course notes and learning resources
-└── .gitignore           # Git ignore file to exclude unnecessary files from version control
-```
+- ngnix_config/ Root directory
+-- Task.md Main shell script for Nginx setup
+-- README.md    Project overview, usage, installation and instructions
+-- Task.md      Contains the task description
+.gitigonre
+* **assets/** - Images and resources used in documentation.
+* **bash/** - Bash scripts and automation tasks.
+* **notes/** - Course notes and learning resources.
+>>>>>>> refs/remotes/origin/myfeature
 
 ## Features
 
-### Supported Nginx Features
+<<<<<<< HEAD
+### Core Functionality
+- **Nginx Installation Check**: Verifies if Nginx is already installed on the system.
+- **Virtual Host Configuration**: Checks for existing virtual hosts and assists with setting up new ones.
+- **Dependency Management**: Automatically identifies and installs required dependencies.
+- **Modular Installation**: Provides command-line arguments to selectively install specific features.
+=======
 
+### Supported Nginx Features
 - **User Directory**: Configures user-specific web directories (similar to Apache's `userdir` module).
 - **Authentication**: Sets up HTTP Basic Authentication for protected content.
 - **PAM Authentication**: Integrates with Linux PAM for authentication against system users.
 - **CGI Support**: Enables running CGI scripts within the Nginx environment.
 
+<<<<<<< HEAD
 ## Requirements
 
 - Debian/Ubuntu-based Linux distribution (tested on Ubuntu 20.04+)
@@ -42,8 +53,6 @@ ngnix_config/
 - Bash shell
 
 ## Usage
-
-To use the script, run it with one of the available options:
 
 ```bash
 ./nginx_setup.sh [OPTIONS]
@@ -60,23 +69,24 @@ To use the script, run it with one of the available options:
 -c, --cgi             Enable CGI scripting
 -A, --all             Install and configure all features
 ```
+=======
 
 ### Examples
 
-- **Install Nginx and configure a virtual host**:
-  ```bash
-  ./nginx_setup.sh -v example.com
-  ```
+Install Nginx and configure a virtual host:
+```bash
+./nginx_setup.sh -v example.com
+```
 
-- **Setup only user directories**:
-  ```bash
-  ./nginx_setup.sh -u
-  ```
+Setup only user directories:
+```bash
+./nginx_setup.sh -u
+```
 
-- **Install all features**:
-  ```bash
-  ./nginx_setup.sh -A
-  ```
+Install all features:
+```bash
+./nginx_setup.sh -A
+```
 
 ## Implementation Details
 
@@ -98,7 +108,6 @@ Configures Nginx to process CGI scripts, enabling dynamic content generation thr
 ## Troubleshooting
 
 If you encounter issues:
-
 1. Check the Nginx error logs: `/var/log/nginx/error.log`
 2. Ensure all dependencies are correctly installed
 3. Verify that Nginx configuration syntax is correct with `nginx -t`
@@ -108,5 +117,4 @@ If you encounter issues:
 
 This script is based on the Nginx configuration guidelines from:
 [Nginx Shallow Dive](https://gitlab.com/vaiolabs-io/nginx-shallow-dive)
-
 

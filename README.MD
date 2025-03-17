@@ -1,6 +1,8 @@
 <<<<<<< HEAD
 # Nginx Configuration Automation Script
 
+
+
 ## Overview
 
 This repository contains a bash script that automates the setup and configuration of Nginx with several advanced features:
